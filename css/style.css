@@ -24,9 +24,11 @@
 .top-nav{
     background-color: var(--color-main);
 }
-.main-navbar{
+/* .main-navbar{
     background-color: black;
-}
+    position: absolute;
+    z-index: 5;
+} */
 .main-navbar .navbar-nav li .nav-link{
     color: white !important;
     font-size: 17px;
@@ -115,11 +117,51 @@
     background-color: white;
     transition: .3s;
 }
-.services .box:hover{
+.services .box:hover {
     background-color: var(--color-main);
+    color: white !important;
+}
+.services .box i{
+    transition: .3s;
+}
+.services .box:hover i{
     color: white !important;
 }
 .btn-main{
     background-color: var(--color-main);
     color: white;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-caption .hero-title{
+    font-size: 24px;
+    font-family: var(--font-Jost);
+    font-weight: 500;
+}
+.carousel-caption .hero-big-title{
+    font-size: 72px;
+    font-family: var(--font-Jost);
+    font-weight: 700;
+}
+.carousel-caption .hero-par{
+    font-size: 20px;
+    font-family: var(--font-Roobot);
+    font-weight: 500;
+}
+.carousel-caption .content{
+    width: 60%;
+}
+.carousel-caption .content .btn{
+    font-weight: bold;
+}
+.carousel .carousel-control-next-icon{
+    background-color: rgba(19, 54, 123) !important;
+    padding: 20px;
+    padding-left: 40px;
+}
+.carousel .carousel-control-prev-icon{
+    background-color: rgba(19, 54, 123) !important;
+    padding: 20px;
+    padding-left: 40px
 }
