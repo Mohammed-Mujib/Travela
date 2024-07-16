@@ -12,14 +12,6 @@
 <body>
     <!-- <div class="row top-nav">
         <div class="col">
-            <ul>
-                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
-                
-            </ul>
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
                     <div class="collapse navbar-collapse" id="navbarNav">
@@ -65,9 +57,10 @@
             </nav>
         </div>
     </div> -->
+    <!-- home start -->
     <div class="hero">
         <div id="carouselExampleAutoplaying" class="carousel slide position-relative" data-bs-ride="carousel">
-            <nav class="navbar navbar-expand-lg border border-end-0 border-top-0 border-start-0 main-navbar position-absolute top-0 w-100 z-3">
+            <nav class="navbar navbar-expand-lg main-navbar position-absolute top-0 w-100 z-1">
                 <div class="container">
                     <a class="navbar-brand text-white" href="#"><i class="fa-solid fa-location-dot"></i> Travela</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,24 +68,23 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto ">
-                        <li class="nav-item overflow-hidden">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <li class="nav-item overflow-hidden nav-item-box">
+                            <a class="nav-link overflow-hidden position-relative" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item overflow-hidden">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <li class="nav-item overflow-hidden nav-item-box">
+                            <a class="nav-link overflow-hidden position-relative" aria-current="page" href="#">About</a>
                         </li>
-                        <li class="nav-item overflow-hidden ">
-                            <a class="nav-link active " aria-current="page" href="#">Services</a>
-                            <!-- <div class=" position-absolute object-fit-cover over-layer top-0 w-100 bottom-0 z-0"></div> -->
+                        <li class="nav-item overflow-hidden nav-item-box">
+                            <a class="nav-link overflow-hidden position-relative" aria-current="page" href="#">Services</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Packages</a>
+                        <li class="nav-item overflow-hidden nav-item-box">
+                            <a class="nav-link overflow-hidden position-relative" aria-current="page" href="#">Packages</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                        <li class="nav-item overflow-hidden nav-item-box">
+                            <a class="nav-link overflow-hidden position-relative" aria-current="page" href="#">Blog</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item dropdown nav-item-box nav-dropdown-box overflow-hidden">
+                            <a class="nav-link dropdown-toggle overflow-hidden" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Pages
                             </a>
                             <ul class="dropdown-menu">
@@ -106,11 +98,11 @@
                             
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item overflow-hidden nav-item-box">
                             <a class="nav-link active" aria-current="page" href="#">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn rounded-5 btn-main" href="#" role="button">Book Now</a>
+                            <a class="btn btn-main rounded-pill py-2 px-4 ms-lg-4" href="#">Book Now</a>
                         </li>
                         </ul>
                     </div>
@@ -169,8 +161,68 @@
             </button>
         </div>
     </div>
-    
-
+    <!-- home end -->
+    <!-- search sec start-->
+    <section class=" container-fluid search-sec position-relative ">
+        <div class="container">
+            <form class=" position-relative rounded-pill w-100 p-5 mx-auto">
+                <input type="text" placeholder="Eg: Tailand" class=" border-0 rounded-pill py-3 ps-4 pe-5 w-100">
+                <button type="submit" class=" rounded-pill position-absolute btn btn-main py-2 px-4 me-2 top-50 translate-middle-y">Search</button>
+            </form>
+        </div>
+    </section>
+    <!-- search sec end-->
+    <section class="about py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                    <div class="about-img">
+                        <img class="w-100" src="img/about-img.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12">
+                    <div class="about-content px-5">
+                        <h5 class="about-h5 pe-3">About us</h5>
+                        <h2 class="mb-4">Welcome to <span>Travela</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, dolorum, doloribus sunt dicta, officia voluptatibus libero necessitatibus natus impedit quam ullam assumenda? Id atque iste consectetur. Commodi odit ab saepe!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos voluptatem suscipit neque enim, doloribus ipsum rem eos distinctio, dignissimos nisi saepe nulla? Libero numquam perferendis provident placeat molestiae quia?</p>
+                        <div class="row align-items-center ">
+                            <div class="col-md-6">
+                                <p>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    First Class Flights
+                                </p>
+                                <p>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    5 Star Accommodations
+                                </p>
+                                <p>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    150 Premium City Tours
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <p >
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    Handpicked Hotels
+                                </p>
+                                <p>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    Latest Model Vehicles
+                                </p>
+                                <p>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    24/7 Service
+                                </p>
+                            </div>
+                        </div>
+                        <button class="btn rounded-pill btn-main py-3 px-5 my-2">Reed More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services start -->
     <section class="services container-fluid py-5 bg-light">
         <div class="container py-5">
             <div class=" mx-auto text-center mb-5 scetion-head">
@@ -178,8 +230,8 @@
                 <h2 class="big-title">Our Services</h2>
             </div>
 
-            <div class="row justify-content-evenly">
-                <div class="row g-4 col-6 g-cont">
+            <div class="row g-4 justify-content-evenly">
+                <div class="row g-4 col-md-6 col-sm-12 g-cont">
                     <div class="col-12 d-flex  align-items-center  p-4  border-primary-main rounded box pe-0">
                         <div class="services-content text-end">
                             <h5 class="mb-4">WorldWide Tours</h5>
@@ -271,13 +323,324 @@
                         </div>
                     </div>
                 </div>
+                <div class="text-center col-12">
+                    <a href="" class="py-3 px-5 mt-2 rounded-pill d-inline-block text-decoration-none btn btn-main position-relative">Services More</a>
+                </div>
             </div>
-            <div class="text-center">
-                <a href="" class="py-3 px-5 mt-2 rounded-pill d-inline-block text-decoration-none btn btn-main">Services More</a>
+            
+        </div>
+    </section>
+    <!-- services end -->
+    <!-- destination start -->
+    <section class="destination py-5">
+        <div class="container py-5">
+            <div class="page-head text-center">
+                <h5 class="section-title px-3">DESTINATION</h5>
+                <h2 class="big-title">Popular Destination</h2>
+            </div>
+            <ul class="nav nav-pills nav-fill d-flex justify-content-center mb-5">
+                <li class="nav-item py-2 d-flex justify-content-center">
+                  <a class="nav-link active mx-3 py-2 rounded-pill" aria-current="page" href="#">All</a>
+                </li>
+                <li class="nav-item py-2 d-flex justify-content-center">
+                  <a class="nav-link mx-3 py-2 rounded-pill bg-light" href="#">USA</a>
+                </li>
+                <li class="nav-item py-2 d-flex justify-content-center">
+                  <a class="nav-link mx-3 py-2 rounded-pill bg-light" href="#">Canada</a>
+                </li>
+                <li class="nav-item py-2 d-flex justify-content-center">
+                  <a class="nav-link mx-3 py-2 rounded-pill bg-light" href="#">Europe</a>
+                </li>
+                <li class="nav-item py-2 d-flex justify-content-center">
+                  <a class="nav-link mx-3 py-2 rounded-pill bg-light" href="#">China</a>
+                </li>
+                <li class="nav-item py-2 d-flex justify-content-center">
+                  <a class="nav-link mx-3 py-2 rounded-pill bg-light" href="#">Singapore</a>
+                </li>
+                
+              </ul>
+            <div class="cards">
+                <div class="row g-4">
+                    <div class="col-md-8 col-sm-12">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-sm-12">
+                                <div class="destination-img">
+                                    <div class="img">
+                                        <img src="img/destination-1.jpg" alt="">
+                                    </div>
+                                    <a href="" class="search-icon btn-main"><i class="fa-regular fa-square-plus"></i></a>
+                                    <div class="layer p-4">
+                                        <a href="" class="btn btn-main rounded-pill">20 Photos</a>
+                                        <h4>New York City</h4>
+                                        <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="destination-img">
+                                    <div class="img">
+                                        <img src="img/destination-2.jpg" alt="">
+                                    </div>
+                                    <a href="" class="search-icon btn-main"><i class="fa-regular fa-square-plus"></i></a>
+                                    <div class="layer p-4">
+                                        <a href="" class="btn btn-main rounded-pill">20 Photos</a>
+                                        <h4>Las Vegas</h4>
+                                        <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="destination-img">
+                                    <div class="img">
+                                        <img src="img/destination-3.jpg" alt="">
+                                    </div>
+                                    <a href="" class="search-icon btn-main"><i class="fa-regular fa-square-plus"></i></a>
+                                    <div class="layer p-4">
+                                        <a href="" class="btn btn-main rounded-pill">20 Photos</a>
+                                        <h4>Los angelas</h4>
+                                        <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="destination-img">
+                                    <div class="img">
+                                        <img src="img/destination-4.jpg" alt="">
+                                    </div>
+                                    <a href="" class="search-icon btn-main"><i class="fa-regular fa-square-plus"></i></a>
+                                    <div class="layer p-4">
+                                        <a href="" class="btn btn-main rounded-pill">20 Photos</a>
+                                        <h4>Los angelas</h4>
+                                        <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="destination-img">
+                            <div class="img">
+                                <img src="img/destination-9.jpg" alt="">
+                            </div>
+                            <a href="" class="search-icon btn-main"><i class="fa-regular fa-square-plus"></i></a>
+                            <div class="layer p-4">
+                                <a href="" class="btn btn-main rounded-pill">20 Photos</a>
+                                <h4>Los angelas</h4>
+                                <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="destination-img">
+                            <div class="img">
+                                <img src="img/destination-6.jpg" alt="">
+                            </div>
+                            <a href="" class="search-icon btn-main"><i class="fa-regular fa-square-plus"></i></a>
+                            <div class="layer p-4">
+                                <a href="" class="btn btn-main rounded-pill">20 Photos</a>
+                                <h4>Los angelas</h4>
+                                <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="destination-img">
+                            <div class="img">
+                                <img src="img/destination-7.jpg" alt="">
+                            </div>
+                            <a href="" class="search-icon btn-main"><i class="fa-regular fa-square-plus"></i></a>
+                            <div class="layer p-4">
+                                <a href="" class="btn btn-main rounded-pill">20 Photos</a>
+                                <h4>Los angelas</h4>
+                                <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="destination-img">
+                            <div class="img">
+                                <img src="img/destination-8.jpg" alt="">
+                            </div>
+                            <a href="" class="search-icon btn-main"><i class="fa-regular fa-square-plus"></i></a>
+                            <div class="layer p-4">
+                                <a href="" class="btn btn-main rounded-pill">20 Photos</a>
+                                <h4>Los angelas</h4>
+                                <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
+    <!-- destination end -->
+    <!--EXPLORE start -->
+    <section class="explore container-fluid py-5">
+        <div class="container py-5">
+            <div class="page-head text-center mb-5 mx-auto">
+                <h5 class="section-title px-3">EXPLORE TOUR</h5>
+                <h2 class="big-title">The World</h2>
+                <p class="mb-0 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum repellat a laborum quasi.</p>
+            </div>
+            <div class="tour">
+                <ul class="nav nav-pills nav-fill d-flex justify-content-center mb-5">
+                    <li class="nav-item py-2 d-flex justify-content-center">
+                      <a class="nav-link active mx-3 py-2 rounded-pill" aria-current="page" href="#">National Tour Category</a>
+                    </li>
+                    <li class="nav-item py-2 d-flex justify-content-center">
+                      <a class="nav-link mx-3 py-2 rounded-pill bg-light" href="#">Intrnational Tour Category</a>
+                    </li>
+                </ul>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                        <div class="tour_item position-relative">
+                            <img src="img/explore-tour-1.jpg" alt="">
+                            <div class="tour_layer position-absolute top-0 start-0 w-100 h-100 p-2">
+                                <div class="tour_content">
+                                    <h4>Weekend Tour</h4>
+                                    <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="icon position-absolute top-50 start-50 translate-middle">
+                                <a href=""><i class="fa-solid fa-link text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                        <div class="tour_item position-relative">
+                            <img src="img/explore-tour-2.jpg" alt="">
+                            <div class="tour_layer position-absolute top-0 start-0 w-100 h-100 p-2">
+                                <div class="tour_content">
+                                    <h4>Weekend Tour</h4>
+                                    <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="icon position-absolute top-50 start-50 translate-middle">
+                                <a href=""><i class="fa-solid fa-link text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                        <div class="tour_item position-relative">
+                            <img src="img/explore-tour-3.jpg" alt="">
+                            <div class="tour_layer position-absolute top-0 start-0 w-100 h-100 p-2">
+                                <div class="tour_content">
+                                    <h4>Weekend Tour</h4>
+                                    <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="offer position-absolute" id="off1">
+                                off 15%
+                            </div>
+                            <div class="icon position-absolute top-50 start-50 translate-middle">
+                                <a href=""><i class="fa-solid fa-link text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                        <div class="tour_item position-relative">
+                            <img src="img/explore-tour-4.jpg" alt="">
+                            <div class="tour_layer position-absolute top-0 start-0 w-100 h-100 p-2">
+                                <div class="tour_content">
+                                    <h4>Weekend Tour</h4>
+                                    <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="icon position-absolute top-50 start-50 translate-middle">
+                                <a href=""><i class="fa-solid fa-link text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                        <div class="tour_item position-relative">
+                            <img src="img/explore-tour-5.jpg" alt="">
+                            <div class="tour_layer position-absolute top-0 start-0 w-100 h-100 p-2">
+                                <div class="tour_content">
+                                    <h4>Weekend Tour</h4>
+                                    <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="offer position-absolute" id="off2">
+                                off 50%
+                            </div>
+                            <div class="icon position-absolute top-50 start-50 translate-middle">
+                                <a href=""><i class="fa-solid fa-link text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-sm-12">
+                        <div class="tour_item position-relative">
+                            <img src="img/explore-tour-6.jpg" alt="">
+                            <div class="tour_layer position-absolute top-0 start-0 w-100 h-100 p-2">
+                                <div class="tour_content">
+                                    <h4>Weekend Tour</h4>
+                                    <a href="" class="layer-link">View All Place <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="icon position-absolute top-50 start-50 translate-middle">
+                                <a href=""><i class="fa-solid fa-link text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--EXPLORE end -->
+    <!-- footer start -->
+    <footer class="bg-dark text-white">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xl-3">
+                    <h4 class="mb-4 text-white">Get In Touch</h4>
+                    <a href=""><i class="fa-solid fa-house-chimney"></i>  123 Street, New York, USA</a>
+                    <a href=""><i class="fa-solid fa-envelope"></i>  info@example.com</a>
+                    <a href=""><i class="fa-solid fa-phone-flip"></i>  +012 345 67890</a>
+                    <a href="" class="mb-3"><i class="fa-solid fa-print"></i>  +012 345 67890</a>
+                    <div class="social-links">
+                        <i class="fa-solid fa-share"></i>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""<i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xl-3">
+                    <h4 class="mb-4 text-white">Company</h4>
+                    <a href="" class="angel-link"><i class="fa-solid fa-angle-right me-2"></i>About</a>
+                    <a href="" class="angel-link"><i class="fa-solid fa-angle-right me-2"></i>Careers</a>
+                    <a href="" class="angel-link"><i class="fa-solid fa-angle-right me-2"></i>Blog</a>
+                    <a href="" class="angel-link"><i class="fa-solid fa-angle-right me-2"></i>Press</a>
+                    <a href="" class="angel-link"><i class="fa-solid fa-angle-right me-2"></i>Gift Cards</a>
+                    <a href="" class="angel-link"><i class="fa-solid fa-angle-right me-2"></i>Magazine</a>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xl-3">
+                    <h4 class="mb-4 text-white">Support</h4>
+                    <a href="" class="angel-link"><i class="fa-solid fa-angle-right me-2"></i>Contact</a>
+                    <a href="" class="angel-link"><i class="fa-solid fa-angle-right me-2"></i>Legal Notice</a>
+                    <a href="" class="angel-link"><i class="fa-solid fa-angle-right me-2"></i>Privacy</a>
+                    <a href="" class="angel-link"><i class="fa-solid fa-angle-right me-2"></i>Terms and Condidtions</a>
+                    <a href="" class="angel-link"><i class="fa-solid fa-angle-right me-2"></i>Sitemap</a>
+                    <a href="" class="angel-link"><i class="fa-solid fa-angle-right me-2"></i>Cookie policy</a>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xl-3">
+                    <div class="row gy-3 gx-2 mb-4">
+                        
+                    </div>
+                    <h4 class="mb-4 text-white">Payment</h4>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-md-6 col-sm-12 text-end mt-2">
+                    <i class="fa-solid fa-copyright"></i><a href="">Your Site Name</a>, All right reserved.
+                </div>
+                <div class="col-md-6 col-sm-12 text-start mt-2">
+                    Designed <a href="">HTML Codex</a> Distributed By <a href="">ThemeWagon</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
